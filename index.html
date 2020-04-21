@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Start Template">
+	<meta name="author" content="Admin">
+	<title>Shazam</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="leftSide">
+			<a href="#">
+				<svg class="header__logo">
+					<use xlink:href="images/logo.svg#logo"></use>
+				</svg>
+			</a>
+			<nav class="navigation">
+				<ul class="menu">
+					<li class="menu__item"> <a href="#" class="menu__link">my library</a></li>
+					<li class="menu__item"> <a href="#" class="menu__link">apps</a></li>
+					<li class="menu__item"> <a href="#" class="menu__link">charts</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="rightSide">
+			<form class="form">
+				<input class="form__search" type="search" placeholder="Search for music">
+				<button type="submit" class="form__button">
+					<svg class="icon-search">
+						<use xlink:href="images/search.svg#icon-search"></use>
+					</svg>
+				</button>
+			</form>
+		</div>
+	</header>
+
+	<main>
+		<section class="musicTop">
+			<div class="container">
+				<div class="musicTop__title">
+					<a href="#">
+						<div class="icon-play">
+							<svg class="icon-play__image">
+								<use xlink:href="images/play.svg#icon-play-rounded"></use>
+							</svg>
+						</div>
+					</a>
+					<h2 class="musicTop__title--text">Ukraine Top 200</h2>
+				</div>
+				<form class="musicTop__select">
+					<div class="musicTop__select--country">
+						<select class="select">
+							<option>Select Country</option>
+							<option>Ukraine</option>
+							<option>Russia</option>
+						</select>
+					</div>
+					<div class="musicTop__select--city">
+						<select class="select">
+							<option>Select City</option>
+							<option>Poltava</option>
+							<option>Lviv</option>
+						</select>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<selection class="content">
+			<div class="container">
+				<div class="row audio">
+					<div class="col-12 col-md-8 audio-tracks">
+						<ul class="tracks">
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">1</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-1.jpg" alt="audio-1">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">August</a>
+									<a href="#" class="details__artist details__link">Intelligency</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">2</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-2.jpg" alt="audio-2">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Blinding Lights</a>
+									<a href="#" class="details__artist details__link">The Weeknd</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">3</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-3.jpg" alt="audio-3">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Roses (Imanbek Remix)</a>
+									<a href="#" class="details__artist details__link">SAINt JHN</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">4</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-4.jpg" alt="audio-4">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Плачу на техно</a>
+									<a href="#" class="details__artist details__link">Cream Soda & ХЛЕБ</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">5</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-5.jpg" alt="audio-5">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Dance Monkey</a>
+									<a href="#" class="details__artist details__link">Tones And I</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">6</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-6.jpg" alt="audio-6">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Clandestina</a>
+									<a href="#" class="details__artist details__link">FILV & Edmofo</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">7</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-7.jpg" alt="audio-7">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Clandestina</a>
+									<a href="#" class="details__artist details__link">FILV & Edmofo</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">8</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-8.jpg" alt="audio-8">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Cumberland Gap</a>
+									<a href="#" class="details__artist details__link">David Rawlings</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">9</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-9.jpg" alt="audio-9">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Девочка Танцуй</a>
+									<a href="#" class="details__artist details__link">Artik & Asti</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">10</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-10.jpg" alt="audio-10">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Shut Up Chicken (Radio Edit)</a>
+									<a href="#" class="details__artist details__link">El Capon</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">11</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-11.jpg" alt="audio-11">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Boss Bitch</a>
+									<a href="#" class="details__artist details__link">Doja Cat</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">12</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-12.jpg" alt="audio-12">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Losing It</a>
+									<a href="#" class="details__artist details__link">FISHER</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">13</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-13.jpg" alt="audio-13">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Любимка</a>
+									<a href="#" class="details__artist details__link">NILETTO</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+							<li class="track__play">
+								<div class="track__play--icon">
+									<svg class="play-music">
+										<use xlink:href="images/play.svg#icon-play-rounded"></use>
+									</svg>
+								</div>
+								<span class="track-number">14</span>
+								<a href="#">
+									<img class="track-image" src="images/audio-14.jpg" alt="audio-14">
+								</a>
+								<div class="details">
+									<a href="#" class="details__title details__link">Catch You</a>
+									<a href="#" class="details__artist details__link">C-BooL</a>
+								</div>
+								<div class="track__play--apple-music">
+									<svg class="apple-music">
+										<use xlink:href="images/apple-music.svg#am-pill-black"></use>
+									</svg>
+									<a href="#" class="menu"><span></span></a>
+								</div>
+							</li>
+						</ul>
+
+
+					</div>
+					<div class="col-12 col-md-4 audio-top">
+						<h2 class="title">Charts</h2>
+						<a href="#" class="chart chart-1">
+							<div class="chart__description">
+								<h3 class="chart__description--title">United States</h3>
+								<span class="chart__description--span">Discovery</span>
+							</div>
+							<img src="images/chart-discovery.png" alt="chart-discovery" class="chart-1__image">
+						</a>
+						<a href="#" class="chart chart-2">
+							<div class="chart__description">
+								<h3 class="chart__description--title">Germany</h3>
+								<span class="chart__description--span">Top 200</span>
+							</div>
+							<img src="images/chart-country.png" alt="chart-country" class="chart-2__image">
+						</a>
+						<a href="#" class="chart chart-3">
+							<div class="chart__description">
+								<h3 class="chart__description--title">Global</h3>
+								<span class="chart__description--span">Top 200</span>
+							</div>
+							<img src="images/chart-global.png" alt="chart-country" class="chart-3__image">
+						</a>
+					</div>
+				</div>
+			</div>
+		</selection>
+	</main>
+
+</body>
+
+</html>
